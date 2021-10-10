@@ -1,0 +1,13 @@
+version: "3"
+services:
+  geyser:
+    container_name: geyser
+    image: akaronte/geyser:latest
+    ports:
+      - 19132:19132
+    tty: true
+    stdin_open: true
+    #restart: unless-stopped
+    #restart: always
+    #volumes:
+    #  - ./geyser:/geyser

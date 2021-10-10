@@ -19,7 +19,7 @@ cat <<EOT > config.yml
 bedrock:
   # The IP address that will listen for connections.
   # There is no reason to change this unless you want to limit what IPs can connect to your server.
-  address: 127.0.0.1
+  address: 0.0.0.0
   # The port that will listen for connections
   port: 19132
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
